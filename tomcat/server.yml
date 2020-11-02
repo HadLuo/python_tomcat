@@ -1,0 +1,8 @@
+port: 8080
+# 处理器的线程池 设置
+handler-threadpool:
+  max_workers: 3
+# 服务器支持的动态脚本的后缀
+controller-suffix: "[py,do]"
+# controller 目录 ,当前项目下面
+controller-dir: "controller"
